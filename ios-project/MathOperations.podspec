@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "MathOperations"
-  s.version          = "0.0.2"
+  s.version          = "0.0.3"
   s.summary          = "A util class for math operations."
   s.description      = <<-DESC
                        This CocoaPod provides a util class for math operations.
@@ -21,5 +21,5 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
-  s.source_files = 'library/MathOperations/**/*'
+  s.source_files = 'ios-project/library/MathOperations/**/*'
 end

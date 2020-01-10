@@ -10,6 +10,7 @@
 
 @implementation MathOperations
 +(int) add:(int) number1 andNumber:(int) number2{
+    NSLog(@"the numbers are %d, %d",number1,number2);
     return number1+number2;
 }
 
