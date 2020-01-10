@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
                        This CocoaPod provides a util class for math operations.
                        DESC
   s.homepage         = "https://github.com/naveenthontepu/MathOperations"
-  s.license          = 'MIT'
+  s.license          = {:type => 'MIT', :file => 'LICENSE.txt'}
   s.author           = { "Naveen Thontepu" => "tnaveen.leo@gmail.com" }
   s.source           = { :git => "https://github.com/naveenthontepu/MathOperations.git", :tag => s.version.to_s }
   s.platform     = :ios, '8.0'
